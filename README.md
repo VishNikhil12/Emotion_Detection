@@ -2,7 +2,7 @@
 
 This application uses a custom CNN deep learning model to detect emotions from facial expressions in images and in real time.
 
----
+```
 title: Emotion Detection App
 emoji: 😀
 colorFrom: blue
@@ -12,7 +12,7 @@ sdk_version: 1.22.0
 app_file: app.py
 pinned: false
 license: mit
----
+```
 
 ## Features
 
