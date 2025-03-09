@@ -2,7 +2,7 @@
 
 This application uses a custom CNN deep learning model to detect emotions from facial expressions in images and in real time.
 
-```
+---
 title: Emotion Detection App
 emoji: 😀
 colorFrom: blue
@@ -12,7 +12,7 @@ sdk_version: 1.22.0
 app_file: app.py
 pinned: false
 license: mit
-```
+---
 
 ## Features
 
@@ -37,8 +37,25 @@ The model can detect 7 different emotions:
 1. Choose whether to upload an image or use real-time webcam streaming.
 2. If uploading, select an image file from your device.
 3. If using real-time streaming, allow camera access in your browser.
-4. The app will process the input and display the results.
+4. The app processes the input and displays the results.
 5. Detected faces are highlighted with a green bounding box and labeled with the predicted emotion and confidence.
+
+## Screenshots
+
+### 1. Homepage
+![Homepage](C:/Users/hp/OneDrive/Desktop/Emotion_Detection/assets/homepage.png)
+
+### 2. Uploaded Image with Detected Emotions
+![Detected Emotions on Uploaded Image](C:\Users\hp\OneDrive\Desktop\Emotion_Detection\assets\detected_image.png)
+
+### 3. Real-Time Webcam Streaming
+![Real-Time Webcam Streaming](C:\Users\hp\OneDrive\Desktop\Emotion_Detection\assets\real_time_image.png)
+
+## Deployment
+
+Check out the live app here: [Emotion Detection App Live](https://huggingface.co/spaces/VishNikhil/Emotion_Detection_app)
+
+*Replace the URL above with your actual deployment link.*
 
 ## Technical Details
 
