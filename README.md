@@ -2,7 +2,7 @@
 
 This application uses a custom CNN deep learning model to detect emotions from facial expressions in images and in real time.
 
----
+```
 title: Emotion Detection App
 emoji: 😀
 colorFrom: blue
@@ -12,7 +12,7 @@ sdk_version: 1.22.0
 app_file: app.py
 pinned: false
 license: mit
----
+```
 
 ## Features
 
@@ -43,19 +43,17 @@ The model can detect 7 different emotions:
 ## Screenshots
 
 ### 1. Homepage
-![Homepage](C:/Users/hp/OneDrive/Desktop/Emotion_Detection/assets/homepage.png)
+![Homepage](assets/homepage.png)
 
 ### 2. Uploaded Image with Detected Emotions
-![Detected Emotions on Uploaded Image](C:\Users\hp\OneDrive\Desktop\Emotion_Detection\assets\detected_image.png)
+![Detected Emotions on Uploaded Image](assets/detected_image.png)
 
 ### 3. Real-Time Webcam Streaming
-![Real-Time Webcam Streaming](C:\Users\hp\OneDrive\Desktop\Emotion_Detection\assets\real_time_image.png)
+![Real-Time Webcam Streaming](assets/real_time_image.png)
 
 ## Deployment
 
 Check out the live app here: [Emotion Detection App Live](https://huggingface.co/spaces/VishNikhil/Emotion_Detection_app)
-
-*Replace the URL above with your actual deployment link.*
 
 ## Technical Details
 
@@ -69,6 +67,6 @@ Check out the live app here: [Emotion Detection App Live](https://huggingface.co
 
 The custom CNN model was trained on facial expression datasets to classify emotions from grayscale face images. The model accepts 48x48 grayscale images as input and outputs probabilities for each of the 7 emotion classes.
 
-## Credits
+## Conclusion
 
-Created by Vishwanath Nikhil
+There are other models that are  trained  for this task like Vgg16 and ResNet50 and the best model is ResNet50, but i have used Custom_Cnn_Model for inferncing because the model size is small and it will be suited for fast Responses
