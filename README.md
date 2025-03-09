@@ -1,6 +1,6 @@
 # Emotion Detection App
 
-This application uses a Custom CNN deep learning model to detect emotions from facial expressions in images.
+This application uses a custom CNN deep learning model to detect emotions from facial expressions in images and in real time.
 
 ---
 title: Emotion Detection App
@@ -16,9 +16,9 @@ license: mit
 
 ## Features
 
-- Upload an image or take a photo with your webcam
-- Detect faces in the image
-- Analyze emotions in each detected face
+- Upload an image **or** stream video in real time from your webcam
+- Detect faces in the input
+- Analyze emotions for each detected face
 - Display results with bounding boxes and emotion labels
 
 ## Emotions Detected
@@ -34,23 +34,24 @@ The model can detect 7 different emotions:
 
 ## How to Use
 
-1. Choose whether to upload an image or take a photo
-2. If uploading, select an image file from your device
-3. If using webcam, take a photo when ready
-4. The app will process the image and display the results
-5. Each detected face will be highlighted with a green box and labeled with the detected emotion
+1. Choose whether to upload an image or use real-time webcam streaming.
+2. If uploading, select an image file from your device.
+3. If using real-time streaming, allow camera access in your browser.
+4. The app will process the input and display the results.
+5. Detected faces are highlighted with a green bounding box and labeled with the predicted emotion and confidence.
 
 ## Technical Details
 
-- Built with Streamlit
-- Uses OpenCV for face detection with Haar Cascade Classifier
-- Emotion classification with a ResNet50 model trained on facial expression datasets
-- Deployed on Hugging Face Spaces
+- **Built with:** Streamlit  
+- **Face Detection:** OpenCV with Haar Cascade Classifier  
+- **Emotion Classification:** A custom CNN model trained on facial expression datasets  
+- **Input:** The model processes 48x48 grayscale face images  
+- **Deployment:** Hosted on Hugging Face Spaces using WebRTC for real-time webcam streaming
 
 ## Model Information
 
-The Custom CNN model was trained on facial expression datasets to classify emotions from grayscale face images. The model takes a 224x224 grayscale image as input and outputs probabilities for each of the 7 emotion classes.
+The custom CNN model was trained on facial expression datasets to classify emotions from grayscale face images. The model accepts 48x48 grayscale images as input and outputs probabilities for each of the 7 emotion classes.
 
 ## Credits
 
-Created by Vishwanath Nikhil 
+Created by Vishwanath Nikhil
