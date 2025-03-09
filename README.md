@@ -43,10 +43,10 @@ The model can detect 7 different emotions:
 ## Screenshots
 
 ### 1. Homepage
-![Homepage](assets/homepage.png)
+![Homepage](assets/home_page.png)
 
 ### 2. Uploaded Image with Detected Emotions
-![Detected Emotions on Uploaded Image](assets/detected_image.png)
+![Detected Emotions on Uploaded Image](assets/upload_image.png)
 
 ### 3. Real-Time Webcam Streaming
 ![Real-Time Webcam Streaming](assets/real_time_image.png)
